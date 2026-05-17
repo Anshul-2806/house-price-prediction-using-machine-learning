@@ -1,0 +1,31 @@
+📌 Interview Explanation (Easy)
+1. Problem Statement: Maine machine learning project banaya jisme house ki details ke basis par uska price predict kiya.
+
+2. Dataset: Dataset Kaggle se liya tha jisme bedrooms, bathrooms, sqft area, floors etc columns the.
+
+3. Why Linear Regression?
+Ans. Price numerical value hoti hai, isliye regression algorithm use kiya.
+
+4. Train Test Split: Model ko unbiased check karne ke liye data ko training aur testing parts me divide kiya.
+
+5. Accuracy Metrics
+MAE: Prediction actual value se kitna error kar raha hai.
+R2 Score: Model data ko kitna achha explain kar raha hai.
+
+$ Important Interview Questions
+Q1. Supervised Learning kya hota hai?
+Ans. Jisme input aur output dono available hote hain training ke time.
+
+Q2. Regression aur Classification me difference?
+Regression	      | Classification
+Numerical output  |	Category output
+Price prediction  |	Spam detection
+
+Q3. Overfitting kya hota hai?
+Ans.Jab model training data ko yaad kar leta hai aur new data par achha perform nahi karta.
+
+Q4. Random State kya karta hai?
+Ans. Data splitting ko reproducible banata hai.
+
+Q5. Model.fit kya karta hai?
+Ans. Training data se patterns learn karta hai.
